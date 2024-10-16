@@ -3,16 +3,16 @@ import json
 import telebot
 
 ##TOKEN DETAILS
-TOKEN = "TRON"
+TOKEN = "Rupees"
 
-BOT_TOKEN = "5710284858:AAHcIDYAtWAC01p8BsHRl4cIwhcKpBqNlTQ"
-PAYMENT_CHANNEL = "@testpostchnl" #add payment channel here including the '@' sign
-OWNER_ID = 5151868182 #write owner's user id here.. get it from @MissRose_Bot by /id
-CHANNELS = ["@testpostchnl"] #add channels to be checked here in the format - ["Channel 1", "Channel 2"] 
+BOT_TOKEN = "8163270160:AAF7Ex8y-uQcJipDsUjP96W0ns2MaT2J3Ho"
+PAYMENT_CHANNEL = "@rddsfsd5" #add payment channel here including the '@' sign
+OWNER_ID = 6905107108 #write owner's user id here.. get it from @MissRose_Bot by /id
+CHANNELS = ["@referandearn143owee"] #add channels to be checked here in the format - ["Channel 1", "Channel 2"] 
               #you can add as many channels here and also add the '@' sign before channel username
-Daily_bonus = 1 #Put daily bonus amount here!
-Mini_Withdraw = 0.5  #remove 0 and add the minimum withdraw u want to set
-Per_Refer = 0.0001 #add per refer bonus here
+Daily_bonus = 2 #Put daily bonus amount here!
+Mini_Withdraw = 50  #remove 0 and add the minimum withdraw u want to set
+Per_Refer = 5 #add per refer bonus here
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
